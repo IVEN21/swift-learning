@@ -13,6 +13,7 @@
 		CDAA9FB128500D8E00FA86FB /* recipes.json in Resources */ = {isa = PBXBuildFile; fileRef = CDAA9FB028500D8E00FA86FB /* recipes.json */; };
 		CDAA9FB32850593900FA86FB /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAA9FB22850593900FA86FB /* DataService.swift */; };
 		CDAA9FB72850F72500FA86FB /* Details.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAA9FB62850F72500FA86FB /* Details.swift */; };
+		CDAA9FBB28511F2B00FA86FB /* RecipeTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAA9FBA28511F2B00FA86FB /* RecipeTab.swift */; };
 		CDF4B884284C46E600BF0140 /* testApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF4B883284C46E600BF0140 /* testApp.swift */; };
 		CDF4B886284C46E600BF0140 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF4B885284C46E600BF0140 /* ContentView.swift */; };
 		CDF4B888284C46E700BF0140 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDF4B887284C46E700BF0140 /* Assets.xcassets */; };
@@ -26,6 +27,7 @@
 		CDAA9FB028500D8E00FA86FB /* recipes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = recipes.json; path = "../../../../Downloads/RecipeListApp Resources/recipes.json"; sourceTree = "<group>"; };
 		CDAA9FB22850593900FA86FB /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		CDAA9FB62850F72500FA86FB /* Details.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Details.swift; sourceTree = "<group>"; };
+		CDAA9FBA28511F2B00FA86FB /* RecipeTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeTab.swift; sourceTree = "<group>"; };
 		CDF4B880284C46E600BF0140 /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDF4B883284C46E600BF0140 /* testApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testApp.swift; sourceTree = "<group>"; };
 		CDF4B885284C46E600BF0140 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -49,6 +51,7 @@
 			children = (
 				CDF4B885284C46E600BF0140 /* ContentView.swift */,
 				CDAA9FB62850F72500FA86FB /* Details.swift */,
+				CDAA9FBA28511F2B00FA86FB /* RecipeTab.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -201,6 +204,7 @@
 				CDAA9FAD284F055300FA86FB /* recipeModel.swift in Sources */,
 				CDAA9FB72850F72500FA86FB /* Details.swift in Sources */,
 				CDF4B886284C46E600BF0140 /* ContentView.swift in Sources */,
+				CDAA9FBB28511F2B00FA86FB /* RecipeTab.swift in Sources */,
 				CDF4B884284C46E600BF0140 /* testApp.swift in Sources */,
 				CDAA9FB32850593900FA86FB /* DataService.swift in Sources */,
 			);
