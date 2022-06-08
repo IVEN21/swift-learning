@@ -11,12 +11,11 @@ import SwiftUI
 
 struct ContentView: View {
     
-    var lol = ["wasasddma","woca","niama"]
-    
+
     @ObservedObject var model = RecipeModel()
-    
+   
     var body: some View {
-        
+      
         //asd
      
         

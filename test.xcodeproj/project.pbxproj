@@ -10,10 +10,10 @@
 		CDAA9FAB284F04B500FA86FB /* recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAA9FAA284F04B500FA86FB /* recipe.swift */; };
 		CDAA9FAD284F055300FA86FB /* recipeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAA9FAC284F055300FA86FB /* recipeModel.swift */; };
 		CDAA9FAF284FAABA00FA86FB /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = CDAA9FAE284FAABA00FA86FB /* data.json */; };
-		CDAA9FB128500D8E00FA86FB /* recipes.json in Resources */ = {isa = PBXBuildFile; fileRef = CDAA9FB028500D8E00FA86FB /* recipes.json */; };
 		CDAA9FB32850593900FA86FB /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAA9FB22850593900FA86FB /* DataService.swift */; };
 		CDAA9FB72850F72500FA86FB /* Details.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAA9FB62850F72500FA86FB /* Details.swift */; };
 		CDAA9FBB28511F2B00FA86FB /* RecipeTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAA9FBA28511F2B00FA86FB /* RecipeTab.swift */; };
+		CDAA9FBF285143BC00FA86FB /* recipes.json in Resources */ = {isa = PBXBuildFile; fileRef = CDAA9FBE285143BC00FA86FB /* recipes.json */; };
 		CDF4B884284C46E600BF0140 /* testApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF4B883284C46E600BF0140 /* testApp.swift */; };
 		CDF4B886284C46E600BF0140 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF4B885284C46E600BF0140 /* ContentView.swift */; };
 		CDF4B888284C46E700BF0140 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDF4B887284C46E700BF0140 /* Assets.xcassets */; };
@@ -24,10 +24,10 @@
 		CDAA9FAA284F04B500FA86FB /* recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recipe.swift; sourceTree = "<group>"; };
 		CDAA9FAC284F055300FA86FB /* recipeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recipeModel.swift; sourceTree = "<group>"; };
 		CDAA9FAE284FAABA00FA86FB /* data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
-		CDAA9FB028500D8E00FA86FB /* recipes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = recipes.json; path = "../../../../Downloads/RecipeListApp Resources/recipes.json"; sourceTree = "<group>"; };
 		CDAA9FB22850593900FA86FB /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		CDAA9FB62850F72500FA86FB /* Details.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Details.swift; sourceTree = "<group>"; };
 		CDAA9FBA28511F2B00FA86FB /* RecipeTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeTab.swift; sourceTree = "<group>"; };
+		CDAA9FBE285143BC00FA86FB /* recipes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = recipes.json; sourceTree = "<group>"; };
 		CDF4B880284C46E600BF0140 /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDF4B883284C46E600BF0140 /* testApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testApp.swift; sourceTree = "<group>"; };
 		CDF4B885284C46E600BF0140 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -67,7 +67,7 @@
 		CDAA9FA7284DB75B00FA86FB /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				CDAA9FB028500D8E00FA86FB /* recipes.json */,
+				CDAA9FBE285143BC00FA86FB /* recipes.json */,
 				CDAA9FAE284FAABA00FA86FB /* data.json */,
 			);
 			path = Data;
@@ -186,10 +186,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDAA9FBF285143BC00FA86FB /* recipes.json in Resources */,
 				CDF4B88B284C46E700BF0140 /* Preview Assets.xcassets in Resources */,
 				CDAA9FAF284FAABA00FA86FB /* data.json in Resources */,
 				CDF4B888284C46E700BF0140 /* Assets.xcassets in Resources */,
-				CDAA9FB128500D8E00FA86FB /* recipes.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

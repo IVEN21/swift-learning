@@ -22,9 +22,9 @@ struct Details: View {
                 Text("Ingredients")
                     .font(.largeTitle)
                     .padding(.vertical,3)
-                ForEach(recipe.ingredients,id:\.self){
-                    r in Text("~ "+r)     .padding(.bottom,5)
-                }
+//                ForEach(recipe.ingredients,id:\.self){
+//                    r in Text("~ "+r.name)     .padding(.bottom,5)
+//                }
             }
             VStack(alignment: .leading){
              
